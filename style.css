@@ -1,0 +1,43 @@
+.btn {
+    background-image: linear-gradient(45deg, green, orange, yellow);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 5px rgb(106, 106, 218), 0 0 15px rgb(209, 89, 185), 0 0 25px rgb(57, 178, 57) ;
+    filter: drop-shadow( 10px 0px 10px  rgb(188, 236, 182));
+    
+}
+
+.btn:hover {
+    background-color: rgb(60, 179, 68);
+    filter: drop-shadow( 15px 20px 10px  rgb(188, 236, 182));
+}
+
+body {
+    background-image: linear-gradient(45deg, skyblue, rgb(211, 95, 200), rgb(114, 191, 216));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+    
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.gap{
+   
+   padding-top: 50px;
+   
+}
